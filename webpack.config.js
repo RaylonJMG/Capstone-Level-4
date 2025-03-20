@@ -6,7 +6,7 @@ export default {
 		rules: [
 			//RULES ARE A LIST OF WAYS TO PROCESS THE MODULES
 			{
-				test: /\.(js|jsx)$/, //COMPILE JS FILES
+				test: /\.(js|jsx|ts|tsx)$/, //BABEL LOADER TO COMPILE THESE FILES ONLY
 				exclude: /\.(json)/,
 					
 				//exclude: /\.(scss|css|otf|ttf|jpg|jpeg|json)/, //DON'T COMPILE THESE NON-JAVASCRIPT FILES/STYLE MODULES
@@ -27,6 +27,6 @@ export default {
 	mode: "development", //ENABLES THE DEBUGGER
 	devtool: "source-map", //ENABLES DEBUGGER CODE TO MATCH ACTUAL CODE
 	resolve: {
-		extensions: [".js",".jsx", ".ts", ".tsx"]
+		extensions: [".js",".jsx",".ts",".tsx"]
 	}
 } as Configuration;
