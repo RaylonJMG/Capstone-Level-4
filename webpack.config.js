@@ -1,11 +1,14 @@
+import {Configuration} from "webpack"
+
 export default {
 	module: {
 		//MODULES ARE FILES THAT ARE IMPORTED
 		rules: [
 			//RULES ARE A LIST OF WAYS TO PROCESS THE MODULES
 			{
-				test: /\.(js|jsx)$/, //COMPILE JS FILES
-				exclude: /node_modules/,
+				test: /\.(js|jsx|ts|tsx)$/, //BABEL LOADER TO COMPILE THESE FILES ONLY
+				exclude: /\.(json)/,
+					
 				//exclude: /\.(scss|css|otf|ttf|jpg|jpeg|json)/, //DON'T COMPILE THESE NON-JAVASCRIPT FILES/STYLE MODULES
 				use: "babel-loader", //USE THIS LOADER TO COMPILE OTHER MODULES
 			},
@@ -19,8 +22,11 @@ export default {
 			},
 		],
 	},
-	watch: true, //WATCH FOR CODE CHANGES, PRESS CTRL +C TO CXL
-	watchOptions: { aggregateTimeout: 2000 }, //GIVES WEBPACK MORE TIME TO COMPILE
+	// watch: true, //WATCH FOR CODE CHANGES, PRESS CTRL +C TO CXL
+	// watchOptions: { aggregateTimeout: 2000 }, //GIVES WEBPACK MORE TIME TO COMPILE
 	mode: "development", //ENABLES THE DEBUGGER
 	devtool: "source-map", //ENABLES DEBUGGER CODE TO MATCH ACTUAL CODE
-};
+	resolve: {
+		extensions: [".js",".jsx",".ts",".tsx"]
+	}
+} as Configuration;
