@@ -1,18 +1,10 @@
 {
-	"name": "capstone-project-level-3",
+	"name": "",
 	"version": "1.0.0",
 	"description": "",
-	"homepage": "https://github.com/RaylonJMG/Level-3-Capstone-Project#readme",
-	"bugs": {
-		"url": "https://github.com/RaylonJMG/Level-3-Capstone-Project/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/RaylonJMG/Level-3-Capstone-Project.git"
-	},
 	"license": "ISC",
 	"author": "",
-	"main": "index.js",
+	"main": "index.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"deploy": "gh-pages -d dist"
@@ -37,7 +29,5 @@
 		"webpack": "^5.97.1",
 		"webpack-cli": "^6.0.1"
 	},
-	"devDependencies": {
-		"gh-pages": "^6.3.0"
-	}
+	"devDependencies": {}
 }
