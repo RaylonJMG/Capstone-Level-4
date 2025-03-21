@@ -1,16 +1,17 @@
 import React from "react";
+import { output } from "../utils/output";
 
 export function handleSubmit(event = new Event()) {
 	event.preventDefault();
 	const inputs = event.target;
 	const emailInput = inputs[1];
 	const email = emailInput.value;
-	setTimeout(serverResponse, 5000);
+	//setTimeout(serverResponse, 5000);
 	promise.then(parseResponse);
 
-	function serverResponse() {
-		output("Thanks! We have received your message!");
-	}
+	// function serverResponse() {
+	// 	output("Thanks! We have received your message!");
+	// }
 
 	function parseResponse(resolveValue) {
 		debugger;

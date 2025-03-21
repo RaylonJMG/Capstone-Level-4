@@ -1,4 +1,4 @@
-import { output } from "../utils/output.js";
+import { output } from "../utils/output";
 
 //FETCH FUNCTION sends request to API URL and returns a promise
 export function handleAdvice() {

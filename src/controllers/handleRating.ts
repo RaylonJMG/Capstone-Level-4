@@ -1,4 +1,4 @@
-import { output } from "../utils/output.js";
+import { output } from "../utils/output";
 
 export function handleRating() {
 	setTimeout(serverResponse, 5000);
