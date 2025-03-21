@@ -1,4 +1,4 @@
-import {Configuration} from "webpack"
+import { Configuration } from "webpack";
 
 export default {
 	module: {
@@ -8,7 +8,7 @@ export default {
 			{
 				test: /\.(js|jsx|ts|tsx)$/, //BABEL LOADER TO COMPILE THESE FILES ONLY
 				exclude: /\.(json)/,
-					
+
 				//exclude: /\.(scss|css|otf|ttf|jpg|jpeg|json)/, //DON'T COMPILE THESE NON-JAVASCRIPT FILES/STYLE MODULES
 				use: "babel-loader", //USE THIS LOADER TO COMPILE OTHER MODULES
 			},
@@ -22,11 +22,16 @@ export default {
 			},
 		],
 	},
+	//watch & watchOptions not necessary, as Webpack dev server doesn't produce build errors and will automatically watch for changes
 	// watch: true, //WATCH FOR CODE CHANGES, PRESS CTRL +C TO CXL
 	// watchOptions: { aggregateTimeout: 2000 }, //GIVES WEBPACK MORE TIME TO COMPILE
 	mode: "development", //ENABLES THE DEBUGGER
 	devtool: "source-map", //ENABLES DEBUGGER CODE TO MATCH ACTUAL CODE
 	resolve: {
-		extensions: [".js",".jsx",".ts",".tsx"]
-	}
+		extensions: [".js", ".jsx", ".ts", ".tsx"],
+	},
+	devServer: {
+		historyApiFallback: true, //provides support for SPAs by loading index.html
+		open: true, //auto opens a new tab in the browser when starting webpack server
+	},
 } as Configuration;

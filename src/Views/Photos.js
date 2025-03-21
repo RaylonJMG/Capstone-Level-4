@@ -14,7 +14,7 @@ export function Photos() {
 
 	return (
 		<main>
-			<h1>Good Food Hall of Fame</h1>
+			<h1> Food Hall of Fame</h1>
 			<div className="container">
 				<div className="row">
 					<div className="col-12 col-md-6 col-lg-4">
