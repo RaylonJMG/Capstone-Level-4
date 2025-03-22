@@ -1,7 +1,7 @@
 import { output } from "../utils/output";
 
 export function handleRating() {
-	setTimeout(serverResponse, 5000);
+	setTimeout(serverResponse, 2000);
 	output("Submitting Rating now...");
 
 	function serverResponse() {

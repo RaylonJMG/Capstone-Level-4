@@ -62,8 +62,7 @@ export function SignInModal(props) {
 		</>
 	);
 
-	function handleSubmit(event) {
-		debugger;
+	function handleSubmit(event: Event) {
 		handleSignIn(event, setErrorMessage, onSignIn); //passes the event ,setErrorMessage, and onSignIn function to handleSignIn
 		//onSignIn when signed out;
 	}

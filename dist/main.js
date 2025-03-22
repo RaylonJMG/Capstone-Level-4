@@ -13630,10 +13630,10 @@ function raceSignal(promise, signal) {
 
 /***/ }),
 
-/***/ "./src/Views/About.js":
-/*!****************************!*\
-  !*** ./src/Views/About.js ***!
-  \****************************/
+/***/ "./src/Views/About.tsx":
+/*!*****************************!*\
+  !*** ./src/Views/About.tsx ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -13642,7 +13642,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ImageMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageMap */ "./src/Views/ImageMap.js");
+/* harmony import */ var _ImageMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageMap */ "./src/Views/ImageMap.tsx");
 /* harmony import */ var _assets_BestInAmerica_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/BestInAmerica.jpg */ "./assets/BestInAmerica.jpg");
 /* harmony import */ var _assets_ChefTrophy_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/ChefTrophy.jpg */ "./assets/ChefTrophy.jpg");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
@@ -13709,10 +13709,10 @@ function About() {
 
 /***/ }),
 
-/***/ "./src/Views/Carousel.js":
-/*!*******************************!*\
-  !*** ./src/Views/Carousel.js ***!
-  \*******************************/
+/***/ "./src/Views/Carousel.tsx":
+/*!********************************!*\
+  !*** ./src/Views/Carousel.tsx ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -13796,10 +13796,10 @@ function Carousel() {
 
 /***/ }),
 
-/***/ "./src/Views/Contact.js":
-/*!******************************!*\
-  !*** ./src/Views/Contact.js ***!
-  \******************************/
+/***/ "./src/Views/Contact.tsx":
+/*!*******************************!*\
+  !*** ./src/Views/Contact.tsx ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -13808,9 +13808,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _controllers_handleRating__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleRating */ "./src/controllers/handleRating.js");
-/* harmony import */ var _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleSubmit */ "./src/controllers/handleSubmit.js");
-/* harmony import */ var _controllers_handleForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../controllers/handleForm */ "./src/controllers/handleForm.js");
+/* harmony import */ var _controllers_handleRating__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleRating */ "./src/controllers/handleRating.ts");
+/* harmony import */ var _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleSubmit */ "./src/controllers/handleSubmit.ts");
+/* harmony import */ var _controllers_handleForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../controllers/handleForm */ "./src/controllers/handleForm.ts");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -14015,10 +14015,10 @@ function Contact() {
 
 /***/ }),
 
-/***/ "./src/Views/Footer.js":
-/*!*****************************!*\
-  !*** ./src/Views/Footer.js ***!
-  \*****************************/
+/***/ "./src/Views/Footer.tsx":
+/*!******************************!*\
+  !*** ./src/Views/Footer.tsx ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14040,10 +14040,10 @@ function Footer() {
 
 /***/ }),
 
-/***/ "./src/Views/HandleRefresh.js":
-/*!************************************!*\
-  !*** ./src/Views/HandleRefresh.js ***!
-  \************************************/
+/***/ "./src/Views/HandleRefresh.tsx":
+/*!*************************************!*\
+  !*** ./src/Views/HandleRefresh.tsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14093,10 +14093,10 @@ function HandleRefresh(props) {
 
 /***/ }),
 
-/***/ "./src/Views/Header.js":
-/*!*****************************!*\
-  !*** ./src/Views/Header.js ***!
-  \*****************************/
+/***/ "./src/Views/Header.tsx":
+/*!******************************!*\
+  !*** ./src/Views/Header.tsx ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14106,7 +14106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_FriedSeafoodPlatter_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/FriedSeafoodPlatter.jpg */ "./assets/FriedSeafoodPlatter.jpg");
-/* harmony import */ var _NavCollapse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavCollapse */ "./src/Views/NavCollapse.js");
+/* harmony import */ var _NavCollapse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavCollapse */ "./src/Views/NavCollapse.tsx");
 
 
 
@@ -14120,10 +14120,10 @@ function Header() {
 
 /***/ }),
 
-/***/ "./src/Views/Home.js":
-/*!***************************!*\
-  !*** ./src/Views/Home.js ***!
-  \***************************/
+/***/ "./src/Views/Home.tsx":
+/*!****************************!*\
+  !*** ./src/Views/Home.tsx ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14132,10 +14132,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _controllers_handleAdvice__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleAdvice */ "./src/controllers/handleAdvice.js");
+/* harmony import */ var _controllers_handleAdvice__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleAdvice */ "./src/controllers/handleAdvice.ts");
 /* harmony import */ var _assets_Interior_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/Interior.jpg */ "./assets/Interior.jpg");
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../style.scss */ "./style.scss");
-/* harmony import */ var _Carousel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Carousel */ "./src/Views/Carousel.js");
+/* harmony import */ var _Carousel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Carousel */ "./src/Views/Carousel.tsx");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -14223,10 +14223,10 @@ function Home() {
 
 /***/ }),
 
-/***/ "./src/Views/ImageMap.js":
-/*!*******************************!*\
-  !*** ./src/Views/ImageMap.js ***!
-  \*******************************/
+/***/ "./src/Views/ImageMap.tsx":
+/*!********************************!*\
+  !*** ./src/Views/ImageMap.tsx ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14287,10 +14287,10 @@ function ImageMap() {
 
 /***/ }),
 
-/***/ "./src/Views/Menus.js":
-/*!****************************!*\
-  !*** ./src/Views/Menus.js ***!
-  \****************************/
+/***/ "./src/Views/Menus.tsx":
+/*!*****************************!*\
+  !*** ./src/Views/Menus.tsx ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14558,10 +14558,10 @@ function Menus() {
 
 /***/ }),
 
-/***/ "./src/Views/NavCollapse.js":
-/*!**********************************!*\
-  !*** ./src/Views/NavCollapse.js ***!
-  \**********************************/
+/***/ "./src/Views/NavCollapse.tsx":
+/*!***********************************!*\
+  !*** ./src/Views/NavCollapse.tsx ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14571,7 +14571,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/.pnpm/react-router@7.4.0_react-do_1f9bcf573b3dafa9f09a4efdc39f722f/node_modules/react-router/dist/development/chunk-GNGMS2XR.mjs");
-/* harmony import */ var _SignInArea__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInArea */ "./src/Views/SignInArea.js");
+/* harmony import */ var _SignInArea__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInArea */ "./src/Views/SignInArea.tsx");
 
 
 
@@ -14620,10 +14620,10 @@ function NavCollapse() {
 
 /***/ }),
 
-/***/ "./src/Views/Photos.js":
-/*!*****************************!*\
-  !*** ./src/Views/Photos.js ***!
-  \*****************************/
+/***/ "./src/Views/Photos.tsx":
+/*!******************************!*\
+  !*** ./src/Views/Photos.tsx ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14848,10 +14848,10 @@ function Photos() {
 
 /***/ }),
 
-/***/ "./src/Views/SignInArea.js":
-/*!*********************************!*\
-  !*** ./src/Views/SignInArea.js ***!
-  \*********************************/
+/***/ "./src/Views/SignInArea.tsx":
+/*!**********************************!*\
+  !*** ./src/Views/SignInArea.tsx ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14860,8 +14860,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _SignInModal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInModal */ "./src/Views/SignInModal.js");
-/* harmony import */ var _SignOutModal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SignOutModal */ "./src/Views/SignOutModal.js");
+/* harmony import */ var _SignInModal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInModal */ "./src/Views/SignInModal.tsx");
+/* harmony import */ var _SignOutModal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SignOutModal */ "./src/Views/SignOutModal.tsx");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -14880,7 +14880,7 @@ function SignInArea() {
     _useState4 = _slicedToArray(_useState3, 2),
     button = _useState4[0],
     setButton = _useState4[1];
-  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
     _useState6 = _slicedToArray(_useState5, 2),
     isSignedIn = _useState6[0],
     setIsSignedIn = _useState6[1];
@@ -14920,10 +14920,10 @@ function SignInArea() {
 
 /***/ }),
 
-/***/ "./src/Views/SignInContent.js":
-/*!************************************!*\
-  !*** ./src/Views/SignInContent.js ***!
-  \************************************/
+/***/ "./src/Views/SignInContent.tsx":
+/*!*************************************!*\
+  !*** ./src/Views/SignInContent.tsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14952,10 +14952,10 @@ function SignInContent(props) {
 
 /***/ }),
 
-/***/ "./src/Views/SignInModal.js":
-/*!**********************************!*\
-  !*** ./src/Views/SignInModal.js ***!
-  \**********************************/
+/***/ "./src/Views/SignInModal.tsx":
+/*!***********************************!*\
+  !*** ./src/Views/SignInModal.tsx ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14964,8 +14964,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _SignInContent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInContent */ "./src/Views/SignInContent.js");
-/* harmony import */ var _controllers_handleSignIn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleSignIn */ "./src/controllers/handleSignIn.js");
+/* harmony import */ var _SignInContent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInContent */ "./src/Views/SignInContent.tsx");
+/* harmony import */ var _controllers_handleSignIn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleSignIn */ "./src/controllers/handleSignIn.ts");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -15025,7 +15025,6 @@ function SignInModal(props) {
     className: "btn btn-primary"
   }, "Sign In"))))));
   function handleSubmit(event) {
-    debugger;
     (0,_controllers_handleSignIn__WEBPACK_IMPORTED_MODULE_2__.handleSignIn)(event, setErrorMessage, onSignIn); //passes the event ,setErrorMessage, and onSignIn function to handleSignIn
     //onSignIn when signed out;
   }
@@ -15033,10 +15032,10 @@ function SignInModal(props) {
 
 /***/ }),
 
-/***/ "./src/Views/SignOutModal.js":
-/*!***********************************!*\
-  !*** ./src/Views/SignOutModal.js ***!
-  \***********************************/
+/***/ "./src/Views/SignOutModal.tsx":
+/*!************************************!*\
+  !*** ./src/Views/SignOutModal.tsx ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -15101,9 +15100,9 @@ function SignOutModal(props) {
 
 /***/ }),
 
-/***/ "./src/controllers/handleAdvice.js":
+/***/ "./src/controllers/handleAdvice.ts":
 /*!*****************************************!*\
-  !*** ./src/controllers/handleAdvice.js ***!
+  !*** ./src/controllers/handleAdvice.ts ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15111,7 +15110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleAdvice: () => (/* binding */ handleAdvice)
 /* harmony export */ });
-/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output.js */ "./src/utils/output.js");
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.ts");
 
 
 //FETCH FUNCTION sends request to API URL and returns a promise
@@ -15133,16 +15132,16 @@ function handleAdvice() {
       debugger;
       var result = JSON.parse(resolveValue);
       var advice = result.slip.advice;
-      (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(advice);
+      (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(advice);
     }
   }
 }
 
 /***/ }),
 
-/***/ "./src/controllers/handleForm.js":
+/***/ "./src/controllers/handleForm.ts":
 /*!***************************************!*\
-  !*** ./src/controllers/handleForm.js ***!
+  !*** ./src/controllers/handleForm.ts ***!
   \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15150,10 +15149,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleForm: () => (/* binding */ handleForm)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
-
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.ts");
 
 function handleForm(event) {
   debugger;
@@ -15165,7 +15161,7 @@ function handleForm(event) {
   var phoneNumber = phoneNumberInput.value;
   var firstName = firstNameInput.value;
   var calendar = calendarInput.value;
-  (0,_utils_output__WEBPACK_IMPORTED_MODULE_1__.output)("Thank you, ".concat(firstName, ". <br> Your phone appointment is scheduled for ").concat(calendar, ".<br> You can expect a call at ").concat(phoneNumber, ". Have a great rest of your day."));
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("Thank you, ".concat(firstName, ". <br> Your phone appointment is scheduled for ").concat(calendar, ".<br> You can expect a call at ").concat(phoneNumber, ". Have a great rest of your day."));
   // function output() {
   // 	const [message, setMessage] = useState(
   //
@@ -15176,9 +15172,9 @@ function handleForm(event) {
 
 /***/ }),
 
-/***/ "./src/controllers/handleRating.js":
+/***/ "./src/controllers/handleRating.ts":
 /*!*****************************************!*\
-  !*** ./src/controllers/handleRating.js ***!
+  !*** ./src/controllers/handleRating.ts ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15186,21 +15182,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleRating: () => (/* binding */ handleRating)
 /* harmony export */ });
-/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output.js */ "./src/utils/output.js");
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.ts");
 
 function handleRating() {
-  setTimeout(serverResponse, 5000);
-  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)("Submitting Rating now...");
+  setTimeout(serverResponse, 2000);
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("Submitting Rating now...");
   function serverResponse() {
-    (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)("Thanks! We have received your message!");
+    (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("Thanks! We have received your message!");
   }
 }
 
 /***/ }),
 
-/***/ "./src/controllers/handleSignIn.js":
+/***/ "./src/controllers/handleSignIn.ts":
 /*!*****************************************!*\
-  !*** ./src/controllers/handleSignIn.js ***!
+  !*** ./src/controllers/handleSignIn.ts ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15208,12 +15204,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleSignIn: () => (/* binding */ handleSignIn)
 /* harmony export */ });
-//import { authentication } from "../modules/authentication";
+/* harmony import */ var _modules_authentication__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/authentication */ "./src/modules/authentication.ts");
 
-function handleSignIn() {
-  var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Event();
-  var setErrorMessage = arguments.length > 1 ? arguments[1] : undefined;
-  var onSignIn = arguments.length > 2 ? arguments[2] : undefined;
+function handleSignIn(event, setErrorMessage, onSignIn) {
   debugger;
   event.preventDefault(); //stops the page from reloading
 
@@ -15225,11 +15218,11 @@ function handleSignIn() {
   var email = emailInput.value; //email is the value of the email input
   var password = passwordInput.value; //password is the value of the password input
 
-  var isAuthenticated = authentication(email, password); //checks if email/password are correct
+  var isAuthenticated = (0,_modules_authentication__WEBPACK_IMPORTED_MODULE_0__.authentication)(email, password); //checks if email/password are correct
   var closeButton = inputs[0];
   if (isAuthenticated) {
     closeButton.click(); //closes the form
-    inputs.reset(); //resets the form/modal
+    //inputs.reset(); //resets the form/modal
     onSignIn(); //activates the handler function
   } else setErrorMessage("The email and/or password is incorrect!");
   //sets the error message if the email/password are incorrect
@@ -15237,9 +15230,9 @@ function handleSignIn() {
 
 /***/ }),
 
-/***/ "./src/controllers/handleSubmit.js":
+/***/ "./src/controllers/handleSubmit.ts":
 /*!*****************************************!*\
-  !*** ./src/controllers/handleSubmit.js ***!
+  !*** ./src/controllers/handleSubmit.ts ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15247,34 +15240,85 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleSubmit: () => (/* binding */ handleSubmit)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function handleSubmit() {
-  var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Event();
+function handleSubmit(event) {
   event.preventDefault();
   var inputs = event.target;
   var emailInput = inputs[1];
   var email = emailInput.value;
-  setTimeout(serverResponse, 5000);
-  promise.then(parseResponse);
-  function serverResponse() {
-    output("Thanks! We have received your message!");
-  }
-  function parseResponse(resolveValue) {
-    debugger;
-    //JSON.PARSE: CONVERTS STRING OBJECT INTO ACTUAL OBJECT
-    var response = JSON.parse(resolveValue);
-    var message = response.message;
-    output(resolveValue);
-  }
+  var message = "Thank you for your message, ".concat(email, "!");
+  return message;
 }
 
 /***/ }),
 
-/***/ "./src/utils/output.js":
+/***/ "./src/modules/authentication.ts":
+/*!***************************************!*\
+  !*** ./src/modules/authentication.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   authentication: () => (/* binding */ authentication)
+/* harmony export */ });
+/* harmony import */ var _logins__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logins */ "./src/modules/logins.ts");
+function _createForOfIteratorHelper(r, e) { var t = "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (!t) { if (Array.isArray(r) || (t = _unsupportedIterableToArray(r)) || e && r && "number" == typeof r.length) { t && (r = t); var _n = 0, F = function F() {}; return { s: F, n: function n() { return _n >= r.length ? { done: !0 } : { done: !1, value: r[_n++] }; }, e: function e(r) { throw r; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var o, a = !0, u = !1; return { s: function s() { t = t.call(r); }, n: function n() { var r = t.next(); return a = r.done, r; }, e: function e(r) { u = !0, o = r; }, f: function f() { try { a || null == t["return"] || t["return"](); } finally { if (u) throw o; } } }; }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+
+
+//RETURNS TRUE IF THE EMAIL AND PASSWORD MATCHES A LOGIN
+// RETURNS FALSE IF THE EMAIL AND PASSWORD DO NOT MATCH A LOGIN
+
+function authentication() {
+  var email = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
+  var password = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+  var _iterator = _createForOfIteratorHelper(_logins__WEBPACK_IMPORTED_MODULE_0__.logins),
+    _step;
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var login = _step.value;
+      debugger;
+      var currentEmail = login.email;
+      var currentPassword = login.password;
+      if (currentEmail === email && currentPassword === password) return true;
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+  return false;
+}
+
+/***/ }),
+
+/***/ "./src/modules/logins.ts":
+/*!*******************************!*\
+  !*** ./src/modules/logins.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   logins: () => (/* binding */ logins)
+/* harmony export */ });
+var logins = [{
+  email: "abc@logins.com",
+  password: "aaa"
+}, {
+  email: "123@logins.com",
+  password: "bbb"
+}, {
+  email: "abc123@logins.com",
+  password: "ccc"
+}];
+
+/***/ }),
+
+/***/ "./src/utils/output.ts":
 /*!*****************************!*\
-  !*** ./src/utils/output.js ***!
+  !*** ./src/utils/output.ts ***!
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -15498,23 +15542,23 @@ var update = _node_modules_pnpm_style_loader_4_0_0_webpack_5_98_0_node_modules_s
 var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!***********************!*\
+  !*** ./src/index.tsx ***!
+  \***********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/.pnpm/react-dom@19.0.0_react@19.0.0/node_modules/react-dom/client.js");
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router */ "./node_modules/.pnpm/react-router@7.4.0_react-do_1f9bcf573b3dafa9f09a4efdc39f722f/node_modules/react-router/dist/development/chunk-GNGMS2XR.mjs");
-/* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Home */ "./src/Views/Home.js");
-/* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/About */ "./src/Views/About.js");
-/* harmony import */ var _Views_Photos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/Photos */ "./src/Views/Photos.js");
-/* harmony import */ var _Views_Menus__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/Menus */ "./src/Views/Menus.js");
-/* harmony import */ var _Views_Contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Contact */ "./src/Views/Contact.js");
-/* harmony import */ var _Views_ImageMap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/ImageMap */ "./src/Views/ImageMap.js");
-/* harmony import */ var _Views_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Views/Header */ "./src/Views/Header.js");
-/* harmony import */ var _Views_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Views/Footer */ "./src/Views/Footer.js");
-/* harmony import */ var _Views_HandleRefresh__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Views/HandleRefresh */ "./src/Views/HandleRefresh.js");
+/* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Home */ "./src/Views/Home.tsx");
+/* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/About */ "./src/Views/About.tsx");
+/* harmony import */ var _Views_Photos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/Photos */ "./src/Views/Photos.tsx");
+/* harmony import */ var _Views_Menus__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/Menus */ "./src/Views/Menus.tsx");
+/* harmony import */ var _Views_Contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Contact */ "./src/Views/Contact.tsx");
+/* harmony import */ var _Views_ImageMap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/ImageMap */ "./src/Views/ImageMap.tsx");
+/* harmony import */ var _Views_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Views/Header */ "./src/Views/Header.tsx");
+/* harmony import */ var _Views_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Views/Footer */ "./src/Views/Footer.tsx");
+/* harmony import */ var _Views_HandleRefresh__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Views/HandleRefresh */ "./src/Views/HandleRefresh.tsx");
 
 
 

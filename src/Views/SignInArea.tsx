@@ -5,7 +5,7 @@ import { SignOutModal } from "./SignOutModal";
 export function SignInArea() {
 	const [didMount, setDidMount] = useState(false);
 	const [button, setButton] = useState(<></>);
-	const [isSignedIn, setIsSignedIn] = useState(true);
+	const [isSignedIn, setIsSignedIn] = useState(false);
 
 	useEffect(componentDidMount, []);
 	useEffect(componentDidUpdate, [isSignedIn]);
