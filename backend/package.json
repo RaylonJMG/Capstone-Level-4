@@ -1,0 +1,32 @@
+{
+	"scripts": {
+		"start": "npm run close-port && npm run start-server",
+		"build": "npm run open-tab && npm run start-build",
+		"test": "npx jest",
+		"--------------------": "---------------------------------------",
+		"deploy": "git push",
+		"open-tab": "npx open-cli http://localhost:8000",
+		"close-port": "npx kill-port 8000",
+		"start-server": "nodemon ./dist/main.js",
+		"start-build": "npx webpack --watch"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.21.2"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.26.9",
+		"@babel/preset-typescript": "^7.27.0",
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.1",
+		"@types/jest": "^29.5.14",
+		"babel-loader": "^10.0.0",
+		"jest": "^29.7.0",
+		"kill-port": "^2.0.1",
+		"nodemon": "^3.1.9",
+		"open-cli": "^8.0.0",
+		"ts-node": "^10.9.2",
+		"webpack": "^5.98.0",
+		"webpack-cli": "^6.0.1"
+	}
+}

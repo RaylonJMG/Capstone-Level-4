@@ -15270,9 +15270,7 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
 //RETURNS TRUE IF THE EMAIL AND PASSWORD MATCHES A LOGIN
 // RETURNS FALSE IF THE EMAIL AND PASSWORD DO NOT MATCH A LOGIN
 
-function authentication() {
-  var email = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
-  var password = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+function authentication(email, password) {
   var _iterator = _createForOfIteratorHelper(_logins__WEBPACK_IMPORTED_MODULE_0__.logins),
     _step;
   try {
