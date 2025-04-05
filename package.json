@@ -1,22 +1,4 @@
 {
-	"name": "capstone-project-level-3",
-	"version": "1.0.0",
-	"description": "",
-	"homepage": "https://github.com/RaylonJMG/Level-3-Capstone-Project#readme",
-	"bugs": {
-		"url": "https://github.com/RaylonJMG/Level-3-Capstone-Project/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/RaylonJMG/Level-3-Capstone-Project.git"
-	},
-	"license": "ISC",
-	"author": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"deploy": "gh-pages -d dist"
-	},
 	"dependencies": {
 		"@aws-sdk/client-dynamodb": "^3.758.0",
 		"@aws-sdk/lib-dynamodb": "^3.758.0",
