@@ -1,5 +1,5 @@
 export function output(
-	message = "", //expects a string
+	message: string, //expects a string
 	outputTag = "outputTag", //provide a value if a outputTag is not specified
 	shouldAppend = true
 ) {
