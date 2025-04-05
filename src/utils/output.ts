@@ -1,5 +1,5 @@
 export function output(
-	message = "", //expects a string
+	message: string, //expects a string
 	outputTag = "outputTag", //provide a value if a outputTag is not specified
 	shouldAppend = true
 ) {
@@ -9,3 +9,4 @@ export function output(
 }
 //output("Hello", "outputTag2");
 //user can specify or you can use the default value of outputTag
+//use a data type if not a default value
