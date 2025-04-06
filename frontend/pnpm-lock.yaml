@@ -8,15 +8,15 @@ importers:
 
   .:
     dependencies:
-      axios:
-        specifier: ^1.8.4
-        version: 1.8.4
       '@aws-sdk/client-dynamodb':
         specifier: ^3.782.0
         version: 3.782.0
       '@aws-sdk/lib-dynamodb':
         specifier: ^3.782.0
         version: 3.782.0(@aws-sdk/client-dynamodb@3.782.0)
+      axios:
+        specifier: ^1.8.4
+        version: 1.8.4
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -42,7 +42,6 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.26.0
         version: 7.26.0(@babel/core@7.26.10)
-<<<<<<< HEAD:frontend/pnpm-lock.yaml
       '@types/jest':
         specifier: ^29.5.14
         version: 29.5.14
@@ -55,8 +54,6 @@ importers:
       '@types/react-router':
         specifier: ^5.1.20
         version: 5.1.20
-=======
->>>>>>> SortDependencies:pnpm-lock.yaml
       babel-loader:
         specifier: ^9.2.1
         version: 9.2.1(@babel/core@7.26.10)(webpack@5.98.0)
