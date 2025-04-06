@@ -1,4 +1,3 @@
-import React from "react";
 import { output } from "../utils/output";
 
 export function handleForm(event) {
@@ -15,10 +14,4 @@ export function handleForm(event) {
 	output(
 		`Thank you, ${firstName}. <br> Your phone appointment is scheduled for ${calendar}.<br> You can expect a call at ${phoneNumber}. Have a great rest of your day.`
 	);
-	// function output() {
-	// 	const [message, setMessage] = useState(
-	//
-	// 	);
-	// }
-	// output({ message });
 }

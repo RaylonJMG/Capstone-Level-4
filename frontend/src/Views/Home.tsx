@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { handleAdvice } from "../controllers/handleAdvice";
 import Interior from "../../assets/Interior.jpg";
-import "../../style.scss";
+//import "../../style.scss";
 import { Carousel } from "./Carousel";
 
 export function Home() {

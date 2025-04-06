@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { handleRating } from "../controllers/handleRating";
-import { handleSubmit } from "../controllers/handleSubmit";
-import { handleForm } from "../controllers/handleForm";
 
 export function Contact() {
 	const [didMount, setDidMount] = useState(false);
-	// const [message, setMessage] = useState(
-	// 	`Thank you, ${firstName}. <br> Your phone appointment is scheduled for ${calendar}.<br> You can expect a call at ${phoneNumber}. Have a great rest of your day.`
-	// );
+	const [message, setMessage] = useState("");
+	const [comment, setComment] = useState("");
+	const [rating, setRating] = useState("");
 	useEffect(componentDidMount, []);
 	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
@@ -29,8 +26,10 @@ export function Contact() {
 						</div>
 						<div className="col-12 col-md-6 col-lg-3">
 							<section id="ratings">
-								<form id="ratingsForm">
-									<p>How was your food experience?</p>{" "}
+								<form
+									onSubmit={handleRating}
+									id="ratingsForm">
+									<p>How was your food experience?</p>
 									<fieldset>
 										<legend>Rating:</legend>
 										<input
@@ -74,28 +73,28 @@ export function Contact() {
 										<i className="bi bi-emoji-heart-eyes"></i>
 										<br />
 										<input
-											onSubmit={handleRating}
 											type="submit"
 											className="btn btn-sm rounded-3 bg-primary"
 											id="mixin-input"
 										/>
 									</fieldset>
-								</form>{" "}
+								</form>
+								{rating}
 							</section>
 							<hr />
 						</div>
 						<div className="col-12 col-md-6 col-lg-3">
 							<section id="comments">
 								<form
-									onSubmit={handleSubmit}
+									onSubmit={handleComments}
 									id="commentsForm">
 									<p>Send Us a Message</p>
-									<label htmlFor="fullName">Full Name:</label>
+									<label htmlFor="name">First Name:</label>
 									<br />
 									<input
-										id="fullName"
+										id="name"
 										type="text"
-										placeholder="Enter First & Last Name"
+										placeholder="Enter First Name"
 									/>
 									<br />
 									<i className="bi bi-envelope-at"></i>
@@ -119,6 +118,7 @@ export function Contact() {
 										className="btn btn-sm rounded-3 bg-primary"
 									/>
 								</form>
+								{comment}
 							</section>
 							<hr />
 						</div>
@@ -209,7 +209,7 @@ export function Contact() {
 										className="btn btn-sm rounded-3 bg-primary"
 									/>
 								</form>
-								<output id="outputTag">{message}</output>;
+								{message}
 							</section>
 						</div>
 					</div>
@@ -218,15 +218,42 @@ export function Contact() {
 		</>
 	);
 
+	function handleComments(event: any) {
+		event.preventDefault();
+		const inputs = event.target;
+		const nameInput = inputs[0];
+		const name = nameInput.value;
+		setComment(`Thank you for your message, ${name}!`);
+	}
+
+	function handleRating(event: any) {
+		debugger;
+		event.preventDefault();
+		setRating("Thanks! We have received your message!");
+	}
+
+	function handleForm(event: any) {
+		event.preventDefault();
+		const form = event.target;
+		const phoneNumberInput = form[3];
+		const firstNameInput = form[0];
+		const calendarInput = form[2];
+		const phoneNumber = phoneNumberInput.value;
+		const firstName = firstNameInput.value;
+		const calendar = calendarInput.value;
+
+		setMessage(
+			`Thank you, ${firstName}. Your phone appointment is scheduled for ${calendar}.You can expect a call at ${phoneNumber}. Have a great rest of your day.`
+		);
+	}
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Contact component has mounted.");
 		document.title = "Contact";
 	}
 	function componentDidUpdate() {
-		if (didMount === true) {
+		if (didMount) {
 			console.log("The Contact component has updated.");
-			setMessage();
 		}
 	}
 	function componentDidUnmount() {
