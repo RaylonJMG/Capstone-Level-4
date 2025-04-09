@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ImageMap } from "./ImageMap";
 import BestInAmerica from "../../assets/BestInAmerica.jpg";
 import ChefTrophy from "../../assets/ChefTrophy.jpg";
+import "../../style.scss";
 
 export function About() {
 	const [didMount, setDidMount] = useState(false); //useState hook to set the component to mount using variable didMount; updates the setter function with setDidMount
