@@ -195,7 +195,7 @@ export function Menus() {
 			<hr />
 			<footer
 				id="menusFooter"
-				style={{ textAlign: "center", border: 5, border: "primary" }}>
+				style={{ textAlign: "center", border: "primary" }}>
 				<b>Menu Map</b>
 				<br />
 				<nav>
