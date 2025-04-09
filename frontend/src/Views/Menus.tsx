@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../../style.scss";
 
 export function Menus() {
 	const [didMount, setDidMount] = useState(false);
@@ -9,9 +10,7 @@ export function Menus() {
 	//Responsive design: using "col-6 col-md-12 col-lg-12" to set the column width to 6 or half for mobile/small screens, and entire size of screen for medium and large screens
 	return (
 		<>
-			<main
-				main
-				style={{ textAlign: "center" }}>
+			<main style={{ textAlign: "center" }}>
 				<div className="container">
 					<div className="row">
 						<div className="col-12">
@@ -196,7 +195,7 @@ export function Menus() {
 			<hr />
 			<footer
 				id="menusFooter"
-				style={{ textAlign: "center", border: 5, border: "primary" }}>
+				style={{ textAlign: "center", border: "primary" }}>
 				<b>Menu Map</b>
 				<br />
 				<nav>

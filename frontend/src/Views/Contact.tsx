@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { handleRating } from "../controllers/handleRating";
+import { handleSubmit } from "../controllers/handleSubmit";
+import { handleForm } from "../controllers/handleForm";
+import "../../style.scss";
 
 export function Contact() {
 	const [didMount, setDidMount] = useState(false);
