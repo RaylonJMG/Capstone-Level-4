@@ -13,7 +13,7 @@ import { HandleRefresh } from "./Views/HandleRefresh";
 
 const domain = window.location.hostname;
 let rootPath = "";
-if (domain === "raylonjmg.github.io") rootPath = "/Level-3-Capstone-Project";
+if (domain === "raylonjmg.github.io") rootPath = "/Capstone-Level-4";
 
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(bodyTag);

@@ -5,7 +5,7 @@ import { SignInArea } from "./SignInArea";
 export function NavCollapse() {
 	const domain = window.location.hostname;
 	let rootPath = "";
-	if (domain === "raylonjmg.github.io") rootPath = "/Level-3-Capstone-Project";
+	if (domain === "raylonjmg.github.io") rootPath = "/Capstone-Level-4";
 
 	return (
 		<nav className="nav-pills navbar navbar-expand-sm bg-body-tertiary">

@@ -12,9 +12,9 @@ export function Server() {
 	);
 
 	function componentDidMount() {
-		getResponse();
+		getServerResponse();
 	}
-	async function getResponse() {
+	async function getServerResponse() {
 		const response = await axios.get("http://localhost:8000");
 		const stringified = JSON.stringify(response.data);
 		setServerResponse(stringified);

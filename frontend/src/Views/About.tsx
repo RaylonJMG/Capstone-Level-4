@@ -103,7 +103,7 @@ export function About() {
 		setDidMount(true); //if the component mounts then it will log that the component has mounted.
 		console.log("The About component has mounted.");
 		document.title = "About";
-		const imgTag = document.getElementbyId("BestInAmerica");
+		const imgTag = document.getElementById("BestInAmerica");
 		new bootstrap.Tooltip(imgTag);
 	}
 	function componentDidUpdate() {
