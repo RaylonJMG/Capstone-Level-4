@@ -10,6 +10,6 @@ declare module "*.mp4";
 declare module "*.jpeg";
 
 //add functions and obj from external scripts here
-declare const bootstrap: any; //assert as a type of object instead of any, once more advanced
-declare const imageMapResize: any;
+declare const bootstrap: { Tooltip: (element: HTMLElement) => void }; //assert as a type of object instead of any, once more advanced
+declare const imageMapResize: Function;
 //should be asserted as a function instead of any, once more advanced

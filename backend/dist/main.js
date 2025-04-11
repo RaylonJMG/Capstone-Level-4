@@ -20845,9 +20845,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function root(request, response) {
   var url = request.url;
-  response.send("<h1>Hello World!</h1><p>Welcome to the backend page.Your path is ".concat(url, "!</p>"));
-
-  //response.send({message:"Hello World!"});
+  response.send("<h1>Hello World!</h1><p>Welcome to the backend. The path is ".concat(url, "!</p>"));
 }
 
 /***/ }),
