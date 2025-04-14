@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"github.copilot.enable": {
+			"*": false,
+			"plaintext": false,
+			"markdown": false,
+			"scminput": false
+		}
+	}
 }

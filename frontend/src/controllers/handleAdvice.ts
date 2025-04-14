@@ -1,7 +1,7 @@
 import { output } from "../utils/output";
 
 //FETCH FUNCTION sends request to API URL and returns a promise
-export function handleAdvice() {
+function handleAdvice() {
 	debugger;
 	const promise = fetch("	https://api.adviceslip.com/advice");
 	promise.then(extractAdvice);
