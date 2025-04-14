@@ -3,6 +3,7 @@ import { handleAdvice } from "../controllers/handleAdvice";
 import Interior from "../../assets/Interior.jpg";
 import "../../style.scss";
 import { Carousel } from "./Carousel";
+import axios from "axios";
 
 export function Home() {
 	//destructuring reads the values of the variables stored in the useState hook
@@ -10,6 +11,7 @@ export function Home() {
 	const [welcome, setWelcome] = useState(
 		"Hello There Mon Chere'! Swing On By and Taste Our Good Food!"
 	); //useState hook to set the welcome message using variable: welcome; updates the setter function with setWelcome
+	const [response, setResponse] = useState("");
 
 	useEffect(componentDidMount, []); //MOUNT HOOK,
 	useEffect(componentDidUpdate, [welcome]); //UPDATE HOOK
@@ -90,6 +92,7 @@ export function Home() {
 					</div>
 				</div>
 				<br />
+				{response}
 				<output id="outputTag"></output>
 			</main>
 		</>
@@ -99,6 +102,7 @@ export function Home() {
 		setDidMount(true);
 		console.log("The Home component has mounted.");
 		document.title = "Home";
+		const response = axios.get("http://localhost:8000");
 	}
 
 	function componentDidUpdate() {
