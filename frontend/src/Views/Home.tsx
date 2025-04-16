@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import Interior from "../../assets/Interior.jpg";
 //import "../../style.scss";
 import { Carousel } from "./Carousel";
-import axios from "axios";
+//import axios from "axios";
+import { Advice } from "./Advice";
 
 export function Home() {
 	//destructuring reads the values of the variables stored in the useState hook
@@ -80,7 +81,7 @@ export function Home() {
 					</div>
 					<hr />
 				</div>
-				<div className="row">
+				{/* <div className="row">
 					<div className="col-12 col-md-6 col-lg-6"></div>
 					<div className="text-center">
 						<button
@@ -90,18 +91,13 @@ export function Home() {
 							Get Random Advice Here
 						</button>
 					</div>
-				</div>
+				</div> */}
 				<br />
-				{advice}
+				<Advice />
 			</main>
 		</>
 	);
-	async function handleAdvice() {
-		const apiResponse = await axios.get("https://api.adviceslip.com/advice");
-		const result = apiResponse.data;
-		const advice = result.slip.advice;
-		return advice;
-	}
+
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Home component has mounted.");

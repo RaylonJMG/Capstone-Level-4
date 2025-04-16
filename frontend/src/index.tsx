@@ -10,6 +10,8 @@ import { ImageMap } from "./Views/ImageMap";
 import { Header } from "./Views/Header";
 import { Footer } from "./Views/Footer";
 import { HandleRefresh } from "./Views/HandleRefresh";
+import { Server } from "./Views/Server";
+import { Advice } from "./Views/Advice";
 
 const domain = window.location.hostname;
 let rootPath = "";
@@ -53,6 +55,14 @@ root.render(
 				<Route
 					path="/imagemap"
 					element={<ImageMap />}
+				/>
+				<Route
+					path="/server"
+					element={<Server />}
+				/>
+				<Route
+					path="/advice"
+					element={<Advice />}
 				/>
 			</Routes>
 			<Footer />
