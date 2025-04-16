@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { handleAdvice } from "../controllers/handleAdvice";
+//import { handleAdvice } from "../controllers/handleAdvice";
 import Interior from "../../assets/Interior.jpg";
 //import "../../style.scss";
 import { Carousel } from "./Carousel";
+import axios from "axios";
 
 export function Home() {
 	//destructuring reads the values of the variables stored in the useState hook
@@ -94,7 +95,12 @@ export function Home() {
 			</main>
 		</>
 	);
-
+	async function handleAdvice() {
+		const apiResponse = await axios.get("https://api.adviceslip.com/advice");
+		const result = apiResponse.data;
+		const advice = result.slip.advice;
+		return advice;
+	}
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Home component has mounted.");

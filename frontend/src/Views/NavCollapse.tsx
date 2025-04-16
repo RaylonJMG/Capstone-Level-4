@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router";
 import { SignInArea } from "./SignInArea";
+import { Server } from "./Server";
 
 export function NavCollapse() {
 	const domain = window.location.hostname;
@@ -52,6 +53,7 @@ export function NavCollapse() {
 							Contact
 						</NavLink>
 						<SignInArea />
+						<Server />
 					</div>
 				</div>
 			</div>
