@@ -11,8 +11,11 @@
 		"start-build": "npx webpack --watch"
 	},
 	"dependencies": {
+		"@aws-sdk/client-dynamodb": "^3.788.0",
+		"@aws-sdk/lib-dynamodb": "^3.789.0",
 		"axios": "^1.8.4",
 		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
 		"express": "^4.21.2"
 	},
 	"devDependencies": {
