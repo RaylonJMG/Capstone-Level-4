@@ -11,6 +11,7 @@ export function Home() {
 	const [welcome, setWelcome] = useState(
 		"Hello There Mon Chere'! Swing On By and Taste Our Good Food!"
 	); //useState hook to set the welcome message using variable: welcome; updates the setter function with setWelcome
+	const [advice, setAdvice] = useState("");
 
 	useEffect(componentDidMount, []); //MOUNT HOOK,
 	useEffect(componentDidUpdate, [welcome]); //UPDATE HOOK
@@ -91,7 +92,7 @@ export function Home() {
 					</div>
 				</div>
 				<br />
-				<output id="outputTag"></output>
+				{advice}
 			</main>
 		</>
 	);
