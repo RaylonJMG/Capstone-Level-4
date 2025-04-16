@@ -28,7 +28,7 @@ export async function userAuthentication(): Promise<userData> {
 	return userData;
 }
 
-type userData = {
+export type userData = {
 	email: string;
 	password: string;
 	name: string;
