@@ -1,12 +1,12 @@
 import { userAuthentication } from "./userAuthentication";
 
-describe("userAuthentication", () => {
+describe(userAuthentication, () => {
 	it("checks if the email and password is in the list", async () => {
 		//ARRANGE
 		const email = "test@logins.com";
 		const password = "testing";
 		//ACT
-		const result = await userAuthentication();
+		const result = await userAuthentication(email, password);
 		//ASSERT
 		expect(result).toHaveProperty(email);
 		expect(result).toHaveProperty(password);
@@ -16,7 +16,7 @@ describe("userAuthentication", () => {
 		const email = "emailNotListed@logins.com";
 		const password = "notListed";
 		//ACT
-		const result = await userAuthentication();
+		const result = await userAuthentication(email, password);
 		//ASSERT
 		expect(result).toBeUndefined();
 	});

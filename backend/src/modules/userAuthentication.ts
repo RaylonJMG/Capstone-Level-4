@@ -4,7 +4,10 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export async function userAuthentication(email, password): Promise<UserData> {
+export async function userAuthentication(
+	email: any,
+	password: any
+): Promise<UserData> {
 	const apiKey = {
 		region: process.env.region,
 		credentials: {
