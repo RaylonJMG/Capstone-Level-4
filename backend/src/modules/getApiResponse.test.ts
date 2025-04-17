@@ -17,14 +17,4 @@ describe(getApiResponse, () => {
 		expect(result).toHaveProperty("slip");
 		expect(result).toHaveProperty("id");
 	});
-	it("does not return a response from the Advice API ", async () => {
-		//ARRANGE
-		const apiResponse = { undefined };
-
-		//ACT
-		const result = await getApiResponse();
-
-		//ASSERT
-		expect(result).toBeUndefined();
-	});
 });

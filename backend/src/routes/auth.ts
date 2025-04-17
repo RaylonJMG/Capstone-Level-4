@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { userAuthentication, userData } from "../modules/userAuthentication";
+import { userAuthentication, UserData } from "../modules/userAuthentication";
 
 export async function auth(request: Request, response: Response) {
-	const userData: userData = await userAuthentication();
+	const userData: UserData = await userAuthentication();
 	response.send(userData);
 }

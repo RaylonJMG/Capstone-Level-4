@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export async function userAuthentication(): Promise<userData> {
+export async function userAuthentication(email, password): Promise<UserData> {
 	const apiKey = {
 		region: process.env.region,
 		credentials: {
@@ -24,11 +24,11 @@ export async function userAuthentication(): Promise<userData> {
 
 	const response = await niceClient.get(request);
 
-	const userData: userData = response.Item as userData;
+	const userData: UserData = response.Item as UserData;
 	return userData;
 }
 
-export type userData = {
+export type UserData = {
 	email: string;
 	password: string;
 	name: string;
