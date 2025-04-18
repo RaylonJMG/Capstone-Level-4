@@ -1,6 +1,6 @@
 import { getApiResponse } from "./getApiResponse";
 
-describe(getApiResponse, () => {
+describe("getApiResponse", () => {
 	it("returns a response from the Advice API", async () => {
 		//ARRANGE
 		const apiResponse = {
