@@ -5,6 +5,7 @@ import { home } from "./routes/home";
 import { auth } from "./routes/auth";
 import { api_advice } from "./routes/api_advice";
 import { create } from "./routes/create";
+import { read } from "./routes/read";
 
 const hostname = "localhost";
 const port = 8000;
@@ -17,6 +18,7 @@ app.get("/api_advice", api_advice);
 app.get("/home", home);
 app.get("/auth", auth);
 app.get("/create", create);
+app.get("/read", read);
 app.listen(port, hostname, handleListen);
 
 function handleListen() {
