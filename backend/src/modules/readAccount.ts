@@ -5,7 +5,11 @@ import { UserAccount } from "./UserAccount";
 
 dotenv.config();
 
-export async function readAccount() {
+export async function readAccount(
+	userEmail: string
+): Promise<UserAccount | undefined> {
+	if (typeof userEmail === "object") return undefined;
+
 	const apiKey = {
 		region: process.env.region,
 		credentials: {
@@ -19,7 +23,7 @@ export async function readAccount() {
 	const request = {
 		TableName: "logins",
 		Key: {
-			email: "test@logins.com",
+			email: userEmail,
 		},
 	};
 
