@@ -14,7 +14,13 @@ export async function createAccount() {
 
 	const request = {
 		TableName: "logins",
-		Item: { email: "newEmail@logins.com", password: "newPassword" },
+		Item: {
+			email: "email@logins.com",
+			password: "password",
+			name: "FirstName",
+			address: "123 Sesame Street",
+			phone: 5550123,
+		},
 	};
 
 	const response = await niceClient.put(request);
