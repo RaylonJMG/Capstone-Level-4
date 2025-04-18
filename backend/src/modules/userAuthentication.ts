@@ -1,6 +1,7 @@
 import { DynamoDB } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocument } from "@aws-sdk/lib-dynamodb";
 import dotenv from "dotenv";
+import { UserData } from "./UserData";
 
 dotenv.config();
 
@@ -30,10 +31,3 @@ export async function userAuthentication(
 	const userData: UserData = response.Item as UserData;
 	return userData;
 }
-
-export type UserData = {
-	email: string;
-	password: string;
-	name: string;
-	phone: number;
-};
