@@ -7,6 +7,7 @@ import { api_advice } from "./routes/api_advice";
 import { create } from "./routes/create";
 import { read } from "./routes/read";
 import { update } from "./routes/update";
+import { deletion } from "./routes/deletion";
 
 const hostname = "localhost";
 const port = 8000;
@@ -21,6 +22,7 @@ app.get("/auth", auth);
 app.get("/create", create);
 app.get("/read", read);
 app.get("/update", update);
+app.get("/deletion", deletion);
 app.listen(port, hostname, handleListen);
 
 function handleListen() {
