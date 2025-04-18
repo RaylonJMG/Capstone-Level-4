@@ -20,5 +20,7 @@ app.listen(port, hostname, handleListen);
 function handleListen() {
 	console.log(`Listening on http://${hostname}:${port}...`);
 	console.log(`Open a new terminal and run 'npm run build'`);
-	console.log(`To debug, start this server in a JavaScript Debug Terminal`);
+	console.log(
+		`To debug, start this server "npm run-start" in a JavaScript Debug Terminal`
+	);
 }

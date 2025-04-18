@@ -6,8 +6,8 @@ import { UserData } from "./UserData";
 dotenv.config();
 
 export async function userAuthentication(
-	email: any,
-	password: any
+	email: string,
+	password: string
 ): Promise<UserData> {
 	const apiKey = {
 		region: process.env.region,
@@ -22,7 +22,8 @@ export async function userAuthentication(
 	const request = {
 		TableName: "logins",
 		Key: {
-			email: "test@logins.com",
+			email: email,
+			password: password,
 		},
 	};
 

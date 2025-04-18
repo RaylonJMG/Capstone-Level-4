@@ -19,7 +19,8 @@ export function Advice() {
 	);
 
 	async function handleAdvice() {
-		const apiResponse = await axios.get("https://localhost:8000/api");
+		debugger;
+		const apiResponse = await axios.get("http://localhost:8000/api");
 		const result = apiResponse.data;
 		const advice = result.slip.advice;
 		setAdvice(advice);
