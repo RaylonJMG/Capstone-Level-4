@@ -5,7 +5,7 @@
 		"test": "npx jest",
 		"deploy": "npm run s3-upload && npm run update-cloudfront",
 		"------------------------": "------------------------",
-		"s3-upload": "aws s3 cp ./dist/ s3://raylonjmgcapstonelvl4/frontend/dist/ --recursive",
+		"s3-upload": "aws s3 cp ./dist/ s3://raylonjmgcapstonelvl4/frontend/dist/ --recursive --exclude *.map",
 		"update-cloudfront": "aws cloudfront create-invalidation --distribution-id E1OB90HQBXB7GA --paths '/*' "
 	},
 	"dependencies": {
